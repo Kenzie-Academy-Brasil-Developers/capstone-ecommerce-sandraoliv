@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto final Front-end</title>
+    <link rel="icon" href="./img/favicon.jpeg">
+    <link rel="stylesheet" href="./css/style.css">
+    <script  src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./img/png-transparent-fashion-design-clothing-dress-fashion-show-women-s-clothing-with.png" alt="logomarca da loja" class="logo">
+        <!-- <h1>Weartake</h1> -->
+        <nav>
+        <a href="">Todos</a>
+        <a href="">Acessórios</a>
+        <a href="">Calçados</a>
+        <a href="">Camisetas</a>
+        </nav>
+    </header>
+    
+   
+    <main>
+       <div id="vitrine">
+
+       </div>
+       <div class="headForm">
+        <form >
+            <label for="pesquisa" hidden> Digite aqui sua pesquisa</label>
+        <input   type="text"    id ="pesquisa"  nome="pesquisa" placeholder="Digite aqui sua pesquisa" >
+        <button class="input">Buscar</button>
+        </form>
+        <div>
+            <h2 class="titulo_carrinho">Carrinho de compras</h2>
+
+           <div id="itensCarrinho">
+
+           </div>
+            
+        </div>
+        <div class="divSecaoCarrinho" >
+            <h4>Itens</h4>
+             <p id ="quantidades"></p>
+             <h4>total</h4>
+             <p id ="total"></p>
+         
+         </div>
+
+    </div> 
+    </main>     
+</body>
+</html>

@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom: solid 6px #2e245e17;
+  padding: 5px;
+  flex-direction: row;
+  height: 80px;
+}
+.logo{
+    background-color: white;
+    border-radius: 100px;
+}
+h1{
+  font-size: 24px;
+  color: #333333;
+  display: flex;
+  text-align: right;
+  padding: 2px;
+  margin: 10px  650px 10px 10px;  
+ font-size: 24px;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #828282bd;
+  padding: 20px;
+  justify-content: space-around;
+}
+a:hover {
+  color: #828282;
+}
+main {
+  background-color: #2e245e18;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap:15px
+}
+.vitrine {
+  background-color: #2e245e00;
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+  height: 1000px;
+  gap: 15px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  flex-direction: column;
+  display: flex;
+  width: 270px;
+  height: 415px;
+  border-radius: 4px;
+  border: solid 2px #37268c0e;
+  background-color: white;
+  font-size: 16px;
+  padding: 3px; 
+}
+.card:hover{
+    border: 2px solid #37268C ;
+}
+img {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #37268c0e;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  margin: 3px;
+}
+.adicionar {
+  font-size: 14px;
+  text-align: center;
+  color: #333333c9;
+  padding: 3px;
+}
+.adicionar:hover{
+  font-weight: 700;
+  color:#333333;
+
+}
+p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #828282;
+  text-overflow: ellipsis;
+  margin: 3px;
+  padding: 3px;
+}
+.preco {
+  color: #37268c;
+  text-align: left;
+  margin-left: 10px;
+}
+small {
+  width: max-content;
+  padding: 8px;
+  background-color: #4b485f;
+  color: #f5f5f5;
+  font-size: 10px;
+  margin: 5px;
+}
+button {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  padding: 15px;
+  cursor: pointer;
+}
+.input {
+  background-color: #37268c;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  width: 80px;
+  margin-bottom: 4px;
+}
+.input:hover{
+  background-color: #37268c69;
+  color:#4b485f;
+
+}
+input {
+  background-color: #37268c0e;
+  border: solid 2px white;
+  padding: 8px;
+  color: #4b485f;
+  width: 100%;
+
+}
+input::placeholder{
+  color:#4b485fad;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  gap: 5px;
+}
+#itensCarrinho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #37268c04;
+  border: solid 2px white;
+  width: 300px;
+  height: 500px;
+ overflow-x: hidden;
+}
+.titulo_carrinho {
+  color: white;
+  background-color: #37268c;
+  margin: 0 auto;
+  padding: 5px;
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: solid  5px white;
+}
+.headForm{
+  width: 300px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+ }
+  .cardCarrinho{
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .imgCarrinho {
+    width: 150px;
+  }
+  .nomeDoCardCarrinho{
+    color: #4b485f;
+    font-size: 10px;
+  }
+  .precoDoCardDoCarrinho{
+    color: #4b485f;
+    font-size: 10px;
+  }
+ .finalizar{
+  display: flex;
+  display: block;
+  width: 300px;
+  background-color: #37268c4a;
+  color: white;
+ }
+
+ .remover{
+  width: 100px;
+  color: #333333c9;
+  padding: 3px;
+ }
+ .divSecaoCarrinho{
+  display: flex;
+  background-color: #37268c;
+  width: 300px;
+  height: 40px;
+ }
+ h4{
+
+ color: white;
+ background-color: #37268c;
+ margin: 0 auto;
+ padding: 5px;
+ width: 300px;
+ height: 40px;
+ margin-bottom: solid  5px white;
+ }
+ #quantidades{
+  color:white;
+  padding: 8px;
+ }
+ #total{
+  color:white;
+  padding: 8px;
+ }
